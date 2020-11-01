@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">praktikumPAM</string>
+    <string-array name="praktikum_arry">
+        <item>List view</item>
+        <item>Recycler View</item>
+    </string-array>
+</resources>
