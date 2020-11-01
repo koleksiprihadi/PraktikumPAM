@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         biodataArrayList = new ArrayList<>();
         biodataArrayList.add(new Biodata("Krisna Prihadiyanto", "Laki-laki"));
         biodataArrayList.add(new Biodata("Meyliza", "Perempuan"));
-        
+
 
     }
 }
