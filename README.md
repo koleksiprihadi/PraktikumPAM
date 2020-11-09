@@ -6,3 +6,4 @@ Praktikum PAM
 # daftar commit
 * List view
 * Recycler View
+* Fragment

@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">praktikumPAM</string>
-    <string-array name="praktikum_arry">
-        <item>List view</item>
-        <item>Recycler View</item>
-    </string-array>
+    <string name="app_name">praktikumPam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="halo_ini_fragment_home">Halo ini fragment home</string>
+    <string name="link_ke_fragment_kategori">Link ke Fragment Kategori</string>
 </resources>
