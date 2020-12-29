@@ -1,5 +1,6 @@
 package com.krisnaprihadiyanto.tabbedaplication.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -14,7 +15,10 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.krisnaprihadiyanto.tabbedaplication.DetailActivity;
+import com.krisnaprihadiyanto.tabbedaplication.FavActivity;
 import com.krisnaprihadiyanto.tabbedaplication.R;
 import com.krisnaprihadiyanto.tabbedaplication.adapter.MovieListAdapter;
 import com.krisnaprihadiyanto.tabbedaplication.model.Movie;
@@ -58,6 +62,15 @@ public class MainFragment extends Fragment implements MovieListAdapter.OnMovieIt
         toolbar = (Toolbar) view.findViewById(R.id.toolbar);
         refreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.refresh);
         rvMovies = (RecyclerView) view.findViewById(R.id.rv_movies);
+
+        FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab_page_fav);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                Intent inte = new Intent(MainFragment.this, FavActivity.class);
+//                startActivity(inte);
+            }
+        });
 
         return view;
     }
