@@ -1,4 +1,4 @@
-package com.example.praktikumpam;
+package com.krisnaprihadiyanto.tabbedaplication;
 
 import org.junit.Test;
 
